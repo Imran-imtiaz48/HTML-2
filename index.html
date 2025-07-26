@@ -2,38 +2,95 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Bio Data</title>
-    <!-- Add custom styles if desired -->
-    <link rel="stylesheet" href="data.css">
+    <title>Vaishnavi N - Bio Data</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f9fc;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .bio-data {
+            max-width: 700px;
+            margin: auto;
+            background-color: #fff;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+        p, li {
+            line-height: 1.6;
+        }
+        hr {
+            border: none;
+            border-top: 1px solid #ccc;
+            margin: 20px 0;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        strong {
+            color: #34495e;
+        }
+        a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
     <div class="bio-data">
-        <h1>My Bio Data</h1>
-        <p><strong>Name:</strong> Vaishnavi N</p>
-        <p><strong>Age:</strong> 20 years old</p>
-        <p><strong>Occupation:</strong> Student</p>
-        <p><strong>Location:</strong> Karur,TamilNadu</p>
-        <p><strong>Email:</strong> shalluvaishnavi@gmail.com</p>
-        <p><strong>Phone Number:</strong> 9566824903</p>
+        <h1>Vaishnavi N - Bio Data</h1>
+
+        <section>
+            <p><strong>Age:</strong> 20 years old</p>
+            <p><strong>Occupation:</strong> Student</p>
+            <p><strong>Location:</strong> Karur, Tamil Nadu</p>
+            <address>
+                <p><strong>Email:</strong> <a href="mailto:shalluvaishnavi@gmail.com">shalluvaishnavi@gmail.com</a></p>
+                <p><strong>Phone Number:</strong> <a href="tel:+919566824903">9566824903</a></p>
+            </address>
+        </section>
+
         <hr />
-        <p><strong>Educational Background:</strong></p>
-        <ul>
-            <li><strong>Degree:</strong> Bachelor of Technology in Artificial Intelligence and Machine Learning</li>
-            <li><strong>University:</strong> Anna University</li>
-            <li><strong>Graduation Year:</strong> 2025</li>
-        </ul>
+
+        <section>
+            <h2>Educational Background</h2>
+            <ul>
+                <li><strong>Degree:</strong> Bachelor of Technology in Artificial Intelligence and Machine Learning</li>
+                <li><strong>University:</strong> Anna University</li>
+                <li><strong>Graduation Year:</strong> 2025</li>
+            </ul>
+        </section>
+
         <hr />
-        <p><strong>Skills:</strong></p>
-        <ul>
-            <li><strong>Technical Skills:</strong> Python, html, C++</li>
-             <li><strong>Soft Skills:</strong> Good Communication, Leadership Quality, Time Management</li>
-        </ul>
+
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>Technical Skills:</strong> Python, HTML, C++</li>
+                <li><strong>Soft Skills:</strong> Good Communication, Leadership Quality, Time Management</li>
+            </ul>
+        </section>
+
         <hr />
-        <p><strong>Languages Known:</strong></p>
-        <ul>
-            <li><strong>To Read,Write,Speak:</strong> Tamil, English</li>
-            <li><strong>To Speak:</strong> Telugu, Kannada</li>
-        </ul>
+
+        <section>
+            <h2>Languages Known</h2>
+            <ul>
+                <li><strong>To Read, Write, Speak:</strong> Tamil, English</li>
+                <li><strong>To Speak:</strong> Telugu, Kannada</li>
+            </ul>
+        </section>
     </div>
 </body>
 </html>
