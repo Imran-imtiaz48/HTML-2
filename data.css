@@ -1,26 +1,50 @@
 body {
-            font-family: 'Times New Roman', Times, serif;
-            background-color: #dfbbbb;
-            background-image: url('C:\Users\ELCOT\Downloads\bg 1.jpg');
-            margin: 10px;
-            border: double purple 10px;
-            padding: 10px;
-        }
-        
-        h1 {
-            text-align: center;
-        }
-    
-        .bio-data {
-            max-width: 800px;
-            margin: 50px auto;
-            background-color: #68a1c7;
-            background-image: url('C:\Users\ELCOT\Downloads\bg 1.jpg');
-            padding: 20px;
-            border:  10px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f3dcdc; /* softer background */
+    background-image: url('bg1.jpg'); /* use relative path instead of C:\... */
+    background-size: cover;  /* makes background fit screen */
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 20px;
+    border: 8px double purple;
+}
 
-        ul li{
-            line-height: 25px;
-        }
+/* Heading */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Bio-data container */
+.bio-data {
+    max-width: 800px;
+    margin: 40px auto;
+    background: rgba(104, 161, 199, 0.9); /* slightly transparent for effect */
+    padding: 25px;
+    border-radius: 12px; /* smooth corners */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(4px); /* glassy look */
+}
+
+/* Lists */
+ul li {
+    line-height: 1.6;
+    margin-bottom: 6px;
+    color: #222;
+}
+
+/* Strong text emphasis */
+strong {
+    color: #222;
+}
+
+/* Links */
+a {
+    color: darkblue;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
